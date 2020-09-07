@@ -1,0 +1,135 @@
+{
+  "account": [
+    {
+      "id": 0,
+      "name": "nomeAccount1",
+      "description": "Description1",
+      "type": "ASSETS",
+      "openingBalance": 15.0,
+      "balance": 15.0
+    },
+    {
+      "id": 1,
+      "name": "nomeAccount2",
+      "description": "Description2",
+      "type": "ASSETS",
+      "openingBalance": 15.0,
+      "balance": 15.0
+    },
+    {
+      "id": 2,
+      "name": "nomeAccount1",
+      "description": "Description1",
+      "type": "LIABILITIES",
+      "openingBalance": 15.0,
+      "balance": 15.0
+    },
+    {
+      "id": 3,
+      "name": "nomeAccount2",
+      "description": "Description2",
+      "type": "LIABILITIES",
+      "openingBalance": 15.0,
+      "balance": 15.0
+    }
+  ],
+  "transaction": [
+    {
+      "id": 2,
+      "date": "2020-06-08",
+      "tags": [
+        {
+          "id": 0,
+          "name": "TestTag",
+          "description": "fdfewrvev"
+        }
+      ],
+      "movements": [
+        {
+          "id": 3,
+          "description": "Descrizione movimento",
+          "date": "2020-06-08",
+          "amount": 105.0,
+          "type": "DEBIT",
+          "accountid": 1,
+          "tags": [
+            {
+              "id": 0,
+              "name": "TestTag",
+              "description": "fdfewrvev"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "description": "gfdg",
+          "date": "2020-06-08",
+          "amount": 11.0,
+          "type": "DEBIT",
+          "accountid": 2
+        },
+        {
+          "id": 5,
+          "description": "fetgv",
+          "date": "2020-06-08",
+          "amount": 433.0,
+          "type": "CREDITS",
+          "accountid": 1
+        },
+        {
+          "id": 6,
+          "description": "ffff",
+          "date": "2020-07-02",
+          "amount": 1114.0,
+          "type": "CREDITS",
+          "accountid": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2020-06-11",
+      "tags": [
+        {
+          "id": 0,
+          "name": "TestTag",
+          "description": "fdfewrvev"
+        }
+      ],
+      "movements": [
+        {
+          "id": 0,
+          "description": "fgerv",
+          "date": "2020-06-08",
+          "amount": 111.0,
+          "type": "CREDITS",
+          "accountid": 0
+        },
+        {
+          "id": 1,
+          "description": "ffrbvert ",
+          "date": "2020-07-02",
+          "amount": 444.0,
+          "type": "CREDITS",
+          "accountid": 2
+        },
+        {
+          "id": 2,
+          "description": "ffff",
+          "date": "2020-07-01",
+          "amount": 667.0,
+          "type": "DEBIT",
+          "accountid": 2
+        },
+        {
+          "id": 3,
+          "description": "gggg",
+          "date": "2020-07-02",
+          "amount": 555.0,
+          "type": "DEBIT",
+          "accountid": 2
+        }
+      ]
+    }
+  ]
+}

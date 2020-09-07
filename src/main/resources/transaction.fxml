@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefHeight="583.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unicam.cs.pa.jbudget100765.fxml.TransactionController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="617.0" minWidth="10.0" prefWidth="592.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="408.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="59.0" minHeight="10.0" prefHeight="59.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="296.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <AnchorPane prefWidth="408.0">
+         <children>
+            <Label layoutX="423.0" layoutY="18.0" text="Lista transazioni">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <StackPane fx:id="root" prefHeight="150.0" prefWidth="532.0" GridPane.rowIndex="1">
+         <children>
+            <TableView fx:id="tableView" prefWidth="608.0">
+              <columns>
+                <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="dateTransaction" prefWidth="117.0" text="Date" />
+                  <TableColumn fx:id="amount" prefWidth="93.0" text="Total Amount" />
+              </columns>
+            </TableView>
+         </children>
+      </StackPane>
+      <TableView fx:id="tagTableView" prefHeight="200.0" prefWidth="339.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+   </children>
+</GridPane>

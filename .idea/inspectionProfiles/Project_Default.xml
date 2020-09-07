@@ -1,0 +1,13 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PublicMethodNotExposedInInterface" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignorableAnnotations">
+        <value>
+          <item value="javafx.fxml.FXML" />
+        </value>
+      </option>
+      <option name="onlyWarnIfContainingClassImplementsAnInterface" value="false" />
+    </inspection_tool>
+  </profile>
+</component>

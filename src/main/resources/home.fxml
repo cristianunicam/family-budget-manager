@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="508.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unicam.cs.pa.jbudget100765.fxml.HomeController">
+   <Button fx:id="viewTransactions" layoutX="75.0" layoutY="99.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="131.0" text="Visualizza Transazioni" />
+   <Button fx:id="addMovement" layoutX="67.0" layoutY="184.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="146.0" text="Aggiungi un movimento" />
+   <Button fx:id="addTag" layoutX="320.0" layoutY="184.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="104.0" text="Aggiungi un Tag" />
+   <Button fx:id="removeTagMovement" layoutX="288.0" layoutY="266.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="168.0" text="Rimuovi Tag o movimento" />
+   <Button fx:id="showTag" layoutX="327.0" layoutY="99.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="90.0" text="Visualizza Tag" />
+   <Button fx:id="showAccount" layoutX="83.0" layoutY="266.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="114.0" text="Visualizza Account" />
+</AnchorPane>
